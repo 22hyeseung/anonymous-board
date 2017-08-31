@@ -12,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-html": "^3.2.0",
     "eslint-plugin-import": "^2.7.0",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
