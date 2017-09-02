@@ -15,9 +15,11 @@ const sever = app.listen(3000, () => {
 });
 
 // static 파일
-
 app.use(express.static('public/dist'));
+
+// body parser
 app.use(bodyParser.urlencoded({extended: true}));
+// session
 app.use(session({
   secret: '@#@#$huusz#@$#$',
   resave: false,
