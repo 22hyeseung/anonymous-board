@@ -1,12 +1,20 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
 @import 'variables';
-
 * {
   font-family: $font-sans;
-  color: $color-font; 
+  color: $color-font;
   text-align: center;
   font-weight: 300;
+}
+
+.main-color {
+  background-color: $color-main;
+  color: #fff;
+}
+
+.article-text {
+  color: $color-font;
 }
 
 #logo-icon {
@@ -23,14 +31,20 @@ h1 {
   margin: 20px;
 }
 
-.board-list > li{
+.board-list>li {
   font-size: $font-size-R;
   line-height: 36px;
 }
 
-#main-btn{
+#main-btn {
+  color: #fff;
   margin-right: -35px;
   margin-bottom: 10px;
+  background-color:$color-main;
+  &:hover{
+    color: #fff;
+    background-color: $color-main-suv;
+  }
 }
 
 #list-icon {
