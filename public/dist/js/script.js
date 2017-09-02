@@ -1,1 +1,0 @@
-function random(){}var a=sir,b=sdafw,c=sadasd,d=sfawds,f=dsawdas;console.log(random.a);

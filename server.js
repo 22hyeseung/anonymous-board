@@ -15,7 +15,7 @@ const sever = app.listen(3030, () => {
 });
 
 // static 파일
-app.use(express.static('public/dist'));
+app.use(express.static('public'));
 
 // body parser
 app.use(bodyParser.urlencoded({extended: true}));

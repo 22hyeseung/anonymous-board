@@ -1,6 +1,7 @@
 {
-  "si12yz": {
-    "name": "anony",
+  "1": {
+    "id" : "si12ey",
+    "password": "anony",
     "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officiis architecto aperiam voluptas fuga unde molestiae, libero debitis, ducimus reiciendis earum sed sint est officia quidem vero dolorum, fugit"
   }
 }
