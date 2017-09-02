@@ -3,7 +3,7 @@ var gulp = require('gulp');
 // var webserver = require('gulp-webserver');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
-var minifyhtml = require('gulp-minify-html');
+// var minifyhtml = require('gulp-minify-html');
 var sass = require('gulp-sass');
 var livereload = require('gulp-livereload');
 var nodemon = require('gulp-nodemon');
@@ -40,11 +40,11 @@ gulp.task('compile-sass', function () {
 });
 
 // HTML 파일을 압축한다.
-gulp.task('compress-html', function () {
-  return gulp.src(paths.html)
-    .pipe(minifyhtml())
-    .pipe(gulp.dest(dist + '/'));
-});
+// gulp.task('compress-html', function () {
+//   return gulp.src(paths.html)
+//     .pipe(minifyhtml())
+//     .pipe(gulp.dest(dist + '/'));
+// });
 
 // js lint
 gulp.task('lint', function(){
