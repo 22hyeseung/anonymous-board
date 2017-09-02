@@ -12,11 +12,16 @@ module.exports = function(app, fs)
     });
   })
 
-  // http://localhost:3030/article/anony_user
-  app.get('/article/:anony', function(req, res){
+  // http://localhost:3030/article/si12yz
+  app.get('/article/:id', function(req, res){
     fs.readFile(__dirname + "/../data/contents.json", 'utf8', function(err, data){
       var users = JSON.parse(data);
-      res.json(users[req.params.anony]);
+      res.json(users[req.params.id]);
     });
   });
+
+  // app.post('/addUser/:username', function(req, res){
+  //   var result = {};
+  //   var username =  
+  // })
 }
