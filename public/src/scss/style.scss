@@ -8,9 +8,8 @@
   font-weight: 300;
 }
 
-.main-color {
-  background-color: $color-main;
-  color: #fff;
+nav {
+  background-color: $color-darkgray;
 }
 
 .article-text {
@@ -22,12 +21,13 @@
 }
 
 h1 {
-  font-weight: $font-weight-R;
-  font-size: $font-size-XL;
+  color: $color-font;
+  font-weight: $font-weight-B;
+  font-size: $font-size-XXL;
 }
 
 .board-list {
-  height: 400px;
+  height: $height-board;
   margin: 20px;
 }
 
@@ -37,6 +37,7 @@ h1 {
 }
 
 #main-btn {
+  font-size: $font-size-S;
   color: #fff;
   margin-right: -35px;
   margin-bottom: 10px;
@@ -51,4 +52,8 @@ h1 {
   font-size: $font-size-R;
   margin-right: 10px;
   color: $color-darkgray;
+}
+
+#content {
+  height: $height-board;
 }

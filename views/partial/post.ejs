@@ -1,16 +1,20 @@
 <div class="container">
   <div class="row">
     <div class="col s12 left-align">
-      <h1 class="teal-text">새글쓰기</h1>
+      <h1 class="left-align">Publishing</h1>
     </div>
     <form action="col s12" id="content">
       <div class="row">
         <div class="input-field col s12">
-          <textarea id="write-content" cols="30" rows="10" class="materialize-textarea"></textarea>
-          <label for="comment-area">글쓰기</label>
+          <textarea id="write-content" class="materialize-textarea"></textarea>
+          <label for="write-content">Content</label>
         </div>
       </div>
     </form>
   </div>
 </div>
 <% include ./footer.ejs %>
+<script>
+$('#write-content').val('New Text');
+$('#write-content').trigger('autoresize');
+</script>

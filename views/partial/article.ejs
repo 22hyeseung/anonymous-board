@@ -1,13 +1,15 @@
 <div class="container">
   <div class="row">
-    <div class="col s12 left-align"><h1 class ="teal-text">제목</h1></div>
-     <div class="col s12 card-panel"><p>글 내용</p></div>
+    <div class="col s12"><h1 class="left-align">Title</h1><div class="divider"></div></div>
+     <div class="col s12 card-panel" id="content"><p>프로그래밍이 너무 재미있어요 하.하.하하하하하하하하하하하하ㅏ하하하하핳ㅎㅎ하하하하하하하
+     </p></div>
       <div class="row">
        <form id ="comment" class="col s12">
         <div class="row">
           <div class="input-field col s12">
-            <textarea id="comment-area" class="materialize-textarea"></textarea>
-            <label for="comment-area">댓글 달기</label>
+            <i class="material-icons prefix">mode_edit</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Comment</label>
           </div>
         </div>
       </form>
@@ -15,7 +17,3 @@
   </div>
 </div>
 <% include ./footer.ejs %>
-<script>
-  $('#comment-area').val('New Text');
-  $('#comment-area').trigger('autoresize');
-</script>
