@@ -20,6 +20,10 @@ nav {
   color: #fff;
 }
 
+#nav-icon {
+  color: #fff;
+}
+
 h1 {
   color: $color-font;
   font-weight: $font-weight-B;
@@ -41,8 +45,8 @@ h1 {
   color: #fff;
   margin-right: -35px;
   margin-bottom: 10px;
-  background-color:$color-main;
-  &:hover{
+  background-color: $color-main;
+  &:hover {
     color: #fff;
     background-color: $color-main-suv;
   }
@@ -55,13 +59,23 @@ h1 {
 }
 
 #content {
-  height: $height-board;
+  height: $height-board / 1.5;
 }
-
 
 //pagination
 .pagination {
-  li.active{
+  li.active {
     background-color: $color-main;
+  }
+}
+
+//admin page
+#del-btn {
+  background-color: transparent;
+  box-shadow: none;
+  &>#list-icon {
+    color: $color-main;
+    font-size: $font-size-XL;
+    text-shadow: 1px 1px rgba($color-lightgray, .9);
   }
 }

@@ -15,6 +15,9 @@ nav {
 #logo-icon {
   color: #fff; }
 
+#nav-icon {
+  color: #fff; }
+
 h1 {
   color: #333;
   font-weight: 400;
@@ -44,7 +47,15 @@ h1 {
   color: #5c5757; }
 
 #content {
-  height: 400px; }
+  height: 266.66667px; }
 
 .pagination li.active {
   background-color: #8dbaa8; }
+
+#del-btn {
+  background-color: transparent;
+  box-shadow: none; }
+  #del-btn > #list-icon {
+    color: #8dbaa8;
+    font-size: 28px;
+    text-shadow: 1px 1px rgba(230, 230, 230, 0.9); }

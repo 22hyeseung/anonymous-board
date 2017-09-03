@@ -1,32 +1,15 @@
 {
   "si12ey": {
+    "id": "si12ey",
     "title": "Today is nice",
     "date": "2017-09-01",
     "time": "19:27",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officiis architecto aperiam voluptas fuga unde molestiae, libero debitis, ducimus reiciendis earum sed sint est officia quidem vero dolorum, fugit",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officiis architecto aperiam voluptas fuga unde molestiae, libero debitis, ducimus reiciendis earum sed sint est officia quidem vero dolorum, fugit",
     "comments": [
       {
-        "content": "Lorem Hi",
+        "text": "Lorem Hi",
         "date": "2017-09-01",
         "time": "19:28"
-      }
-    ]
-  },
-  "si12fy": {
-    "title": "Tommorow will be nice",
-    "date": "2017-09-02",
-    "time": "09:09",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officiis architecto aperiam voluptas fuga unde molestiae, libero debitis, ducimus reiciendis earum sed sint est officia quidem vero dolorum, fugit",
-    "comments": [
-      {
-        "content": "Lorem Hi",
-        "date": "2017-09-02",
-        "time": "10:10"
-      },
-      {
-        "content": "Lorem Hi",
-        "date": "2017-09-03",
-        "time": "15:21"
       }
     ]
   }
