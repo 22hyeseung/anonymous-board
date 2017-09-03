@@ -57,3 +57,11 @@ h1 {
 #content {
   height: $height-board;
 }
+
+
+//pagination
+.pagination {
+  li.active{
+    background-color: $color-main;
+  }
+}

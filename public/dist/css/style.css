@@ -33,10 +33,10 @@ h1 {
   color: #fff;
   margin-right: -35px;
   margin-bottom: 10px;
-  background-color: #ee6e73; }
+  background-color: #8dbaa8; }
   #main-btn:hover {
     color: #fff;
-    background-color: #f6a2ad; }
+    background-color: #b3dfc9; }
 
 #list-icon {
   font-size: 16px;
@@ -45,3 +45,6 @@ h1 {
 
 #content {
   height: 400px; }
+
+.pagination li.active {
+  background-color: #8dbaa8; }

@@ -1,6 +1,5 @@
 {
-  "1": {
-    "id": "si12ey",
+  "si12ey": {
     "title": "Today is nice",
     "date": "2017-09-01",
     "time": "19:27",
@@ -13,8 +12,7 @@
       }
     ]
   },
-  "2": {
-    "id": "si12fy",
+  "si12fy": {
     "title": "Tommorow will be nice",
     "date": "2017-09-02",
     "time": "09:09",
