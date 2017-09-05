@@ -16,5 +16,6 @@ module.exports = function (fs) {
   }
 
   let contents = getConfig("contents.json");
+
   return contents;
 }
