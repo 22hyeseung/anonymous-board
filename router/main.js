@@ -9,8 +9,6 @@ module.exports = function (app, fs) {
 
   app.get('/article/:key', function (req, res) {
     let key = req.params.key
-    // console.log(contents.si12ey["id"]);
-    // console.log(key);
     if (key) {
       let content = contents.posts.find(elm => (elm.id === key));
       res.render('read', { content });
