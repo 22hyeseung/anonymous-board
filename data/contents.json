@@ -1,19 +1,14 @@
 {
-  "si12ey": {
+  "posts": [{
     "id": "si12ey",
     "title": "Today is nice",
     "date": "2017-09-01",
     "time": "19:27",
     "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi officiis architecto aperiam voluptas fuga unde molestiae, libero debitis, ducimus reiciendis earum sed sint est officia quidem vero dolorum, fugit",
     "comments": [
-      {
-        "text": "Lorem Hi",
-        "date": "2017-09-01",
-        "time": "19:28"
-      }
     ]
   },
-  "si13ey": {
+  {
     "id": "si13ey",
     "title": "Today is nice",
     "date": "2017-09-02",
@@ -32,7 +27,7 @@
       }
     ]
   },
-  "si14ey": {
+  {
     "id": "si14ey",
     "title": "Today is nice",
     "date": "2017-09-07",
@@ -55,5 +50,5 @@
         "time": "11:11"
       }
     ]
-  }
+  }]
 }
